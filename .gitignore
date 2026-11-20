@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 큰 파일 (모델 가중치, 영상)
+/weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# 실행 중 생기는 파일 (촬영 사진·라벨, 학습 데이터·결과, 캡처, 로그)
+/sessions/
+/dataset/
+/runs/
+/captures/
+/logs/
+
+# 로컬 보관
+/backup/
+
+# 편집기
+.vscode/

@@ -1,0 +1,8 @@
+{
+  "_설명": "name = 학습 클래스 이름(영어 권장), prompts = SAM 3 에 줄 텍스트(영어 명사구). 한 클래스에 프롬프트 여러 개 가능",
+  "classes": [
+    {"name": "glasses",   "prompts": ["glasses"]},
+    {"name": "phone", "prompts": ["cell phone"]},
+    {"name": "monitor",   "prompts": ["monitor"]}
+  ]
+}
