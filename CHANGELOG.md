@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 추가
+- `LICENSE` (MIT, 이 저장소의 소스 코드)
+- `THIRD_PARTY_NOTICES.md`: 외부 라이브러리·모델 가중치의 라이선스와 출처 (Ultralytics·YOLOE·CLIP AGPL-3.0, SAM 3 SAM License, TensorRT NVIDIA 독점 등)
+- README 에 라이선스 항목
+
 ## [0.1.0] - 2026-11-20
 
 첫 판.

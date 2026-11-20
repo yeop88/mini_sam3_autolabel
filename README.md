@@ -143,7 +143,15 @@ GUI 스레드의 tick(15 ms)이 큐를 비우고 보이는 탭의 화면만 다�
 `backup\weights\` 를 찾습니다 → `--weights ..\weights\sam3.1_multiplex.pt` 처럼 가중치를 지정해서 쓰세요.
 결과도 `backup\sessions\` 등에 생겨 GUI 와 섞이지 않습니다.
 
-## 6. 상태
+## 6. 라이선스
+- 이 저장소의 소스 코드: [MIT](LICENSE)
+- 외부 라이브러리·모델 가중치는 각자의 라이선스를 따릅니다 → [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+  - Ultralytics(YOLO, SAM 3 실행, YOLOE)·YOLOE·Ultralytics CLIP: **AGPL-3.0**
+  - SAM 3 / 3.1 가중치: Meta **SAM License** (Hugging Face 승인제, 배포 시 라이선스 사본 제공, 군사 등 금지 용도)
+  - TensorRT: NVIDIA 독점 라이선스 (선택)
+- 가중치·데이터는 저장소에 포함하지 않습니다.
+
+## 7. 상태
 - 2026-11-20 GUI 작성. 카메라 대신 `chapter05\02_synthetic_conveyor_video` 영상으로 전체 흐름 자동 시험 통과:
   SAM 3.1 불러오기(약 10초) → 자동 라벨(장당 160~240 ms, 20장 객체 218) → 영상 일괄 라벨(+중지) → 검토(클릭 선택·지우기·빼기·되돌리기)
   → 2 epoch 학습(별도 프로세스, yolo26s-seg, 0.7분) → 실시간 추론 → 화면 저장. 시험 결과물은 지움.
